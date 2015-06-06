@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Read:</strong>
+  <%= @interface.read %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @interface.user %>
+</p>
+
+<p>
+  <strong>Book:</strong>
+  <%= @interface.book %>
+</p>
+
+<%= link_to 'Edit', edit_interface_path(@interface) %> |
+<%= link_to 'Back', interfaces_path %>
